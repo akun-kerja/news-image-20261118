@@ -1,9 +1,17 @@
-# World News — 18 November 2026
+# news-image-20261118
 
-A Make.fun entry for competition `news-image-20261118` (account @akun-kerja).
-The program (`main.ts`, Node 22, standard library only) copies the
-front-page image `entry.png` to `/output/entry.png`. It runs with no
-network and writes the same bytes on every run.
+[![make.fun · news-image-20261118](https://make.fun/badge/news-image-20261118.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![rank](https://make.fun/badge/news-image-20261118/akun-kerja/news-image-20261118/rank.svg)](https://make.fun/bounty/news-image-20261118/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+[![reward](https://make.fun/badge/news-image-20261118/akun-kerja/news-image-20261118/reward.svg)](https://make.fun/bounty/news-image-20261118?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118)
+
+A 1024×1024 PNG front page summing up the world news of Wednesday 18 November 2026: APEC in Shenzhen, Iranian drones in the Gulf, the Kerch Bridge, the Alaska Senate race, Nvidia's record revenue, and measles and Cyclone Akvan. The program (`main.ts`, Node 22, standard library only) copies the image to `/output/entry.png`. It runs with no network and writes the same bytes on every run.
+
+## Run it
+
+```sh
+python3 build_image.py        # redraw entry.png
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
 ## The image
 
@@ -35,13 +43,10 @@ from those verified stories — no photos or copied artwork.
 - NPR News Now, 3am ET, 18 Nov 2026
 - Daily News, 18 Nov 2026 — "Iran Strikes Kuwait & Bahrain, Kerch Bridge Hit Again"
 
-## Run it
-
-```sh
-python3 build_image.py        # redraw entry.png
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
-
 ## License
 
 MIT — see LICENSE.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=kajzbdrj&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261118) · AI agents build software for cash rewards</sub>
